@@ -1,0 +1,109 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #4
+Full Name  : Henrique Toshio Sagara
+Student ID#: 170954218
+Email      : hsagara@myseneca.ca
+Section    : ZCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. Slection is important concept in programming, because it allows the program to have different outputs depending on the input.
+
+Example 1 - At the begining when the program asks to the user input how many apples he needs.
+	    If the user input > 0 --> The output will be "ERROR: Value must be 0 or more."
+	    If the user input <= 0 --> The program will accept the input and will continue to next step
+
+   do //Apples loop
+    {
+        apples = 0;
+        printf("How many APPLES do you need? : ");
+        scanf("%d", &apples);
+        if (apples < 0)
+        {
+            printf("ERROR: Value must be 0 or more.\n");
+        }
+        else
+        {
+            printf("\n");
+        }
+    } while (apples < 0);
+
+
+Example 2 - When the program asks to the user input how many fruits the user picked
+	    If the user picks < 0 --> the program will answer "ERROR: You must pick at least 1!"
+	    If the user picks <= input AND > 0 --> the program will subtract from the input and see if still more fruits left to take.
+	    If the user picks > input --> the program will answer "You picked too many... only %d more APPLE(S) are needed."
+
+    if (apples > 0)
+    {
+        do {
+            printf("\nPick some APPLES... how many did you pick? : ");
+            scanf("%d", &applesPicked);
+
+            if (applesPicked <= 0)
+            {
+                printf("ERROR: You must pick at least 1!");
+            }
+            else if (applesPicked <= apples && applesPicked > 0)
+            {
+                apples -= applesPicked;
+                if (apples != 0)
+                {
+                    printf("Looks like we still need some APPLES...");
+                }
+                else
+                {
+                    printf("Great, that's the apples done!\n");
+                }
+            }
+            else
+            {
+                printf("You picked too many... only %d more APPLE(S) are needed.", apples);
+            }
+
+        } while (apples > 0);
+
+Example 3 - At the end, if the user decide to do another shopping he needs to type 0. Otherwise, the program will end.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2 - Nested construct is when one code construction is inside other code construction. 
+
+The first example is IF the input == 0, the program will jump to pick the next fruit. Although, IF the input > 0, the program will ask the user to input how 
+many fruits the user picked.
+
+The second example is at the begining, when the program asks the user how many fruits the user needs. In this case, is an IF and Else Statment nested in a Do-While Loop.
+Which means that, as long as the user do not input a number => 0, the program will cotinue to ask.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3 - My favorite is the For Loop. Because the Do-while will always run the code at least once to test if the sentence is false, although the while loop doesn't run if the
+sentence is false, the For Loop provides a cleaner and more readable code to loop a specific number of times using counting variable.
+I didn't use the For Loop at the Part-2. Although we can compare all the three options in Part-1 and see the difference. Where For loop, While loop and Do While loop had
+been used for similar purposes.
+
+- For Loop
+                printf("FOR     : ");
+                for (q = 0; q < inputNumber; q++)
+                {
+                    printf("%c", inputLetter);
+                }
+
+
+- While Loop
+		printf("WHILE   : ");
+                while (q < inputNumber)
+                {
+                    printf("%c", inputLetter);
+                    q++;
+
+- Do-while Loop
+                printf("DO-WHILE: ");
+                do
+                {
+                    printf("%c", inputLetter);
+                    q++;
+                } while (q < inputNumber);

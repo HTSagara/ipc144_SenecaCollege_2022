@@ -1,0 +1,5 @@
+﻿  w3p2.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS03\p2\w3p2.c(30,77): warning C4101: 'dailyServings_3': unreferenced local variable
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS03\p2\w3p2.c(29,178): warning C4101: 'coffeeStrength_3': unreferenced local variable
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS03\p2\w3p2.c(29,210): warning C4101: 'coffeeEquipment_3': unreferenced local variable
+  w3p2.vcxproj -> C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS03\p2\x64\Debug\w3p2.exe

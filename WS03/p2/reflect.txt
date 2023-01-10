@@ -1,0 +1,77 @@
+*****************************************************************************
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Henrique Toshio Sagara
+Student ID#: 170954218
+Email      : hsagara@myseneca.ca
+Section    : ZCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1. The most complex code was the one to match the customer inputs with the products available. I had to do a Dangling Else to 
+check if the available product's characteristics were in line with the customer's preferences
+
+
+printf("\n 1|");
+    if (coffeeStrength_2 == 'M' || coffeeStrength_2 == 'm')
+    {
+        if (coffeeType_1 == 'L' || coffeeType_1 == 'l')
+        {
+            printf("      1        |");
+        }
+        else
+        {
+            printf("      0        |");
+        }
+
+    }
+    
+    else if (coffeeStrength_2 == 'R' || coffeeStrength_2 == 'r')
+    {
+        if (coffeeType_1 == 'B' || coffeeType_1 == 'b')
+        {
+            printf("      0        |");
+        }
+        else
+        {
+            printf("      0        |");
+        }
+    }
+    else
+    {
+        printf("      0        |");
+    }
+*****************************************************************************
+2.
+if (coffeeType_1 == 'l' || coffeeType_1 == 'L')
+    {
+        printf("   1   |   0   |");
+    }
+    else if (coffeeType_1 == 'b' || coffeeType_1 == 'B')
+    {
+        printf("   0   |   1   |");
+    }
+    else
+    {
+        printf(" Error | Error |");
+    }
+-------------------------------------------------------------------------------
+deMorgan's law
+if(coffeeType_1 == 'l' || 'L')
+    {
+        printf("   1   |   0   |");
+    }
+    else if (coffeeType_1 == !('l' || 'L'))
+    {
+        printf("   0   |   1   |");
+    }
+    else
+    {
+        printf(" Error | Error |");
+    } 
+*****************************************************************************
+3. Bescause the expression of the average product prices was used more than once, in this case it`s easier to be stored
+to be reused.
