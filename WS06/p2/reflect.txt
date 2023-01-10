@@ -1,0 +1,37 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #6
+Full Name  : Henrique Toshio Sagara
+Student ID#: 170954218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1.
+In this workshop I created arrays by intializing all the elements of
+grade zero to add the values through the users inputs. So, in order to reach 
+the data I had to use For Loop to find the requested data and be able to work
+with it. The 'key' is to understand properly how an array works to do Parallel
+Arrays and user the For Loop properly and be able to combine with others Logic 
+Functions such as If, Do While, and While.
+*****************************************************************************
+2.
+Because arrays are base 0, which means that all array start with 0, so to
+be able to iterate all the array, otherwise will miss the first data.
+The example below sums the datas from the array. If we starts from 1, we 
+wouldn't be able to sum the first item of the array.
+      for (i = 0; i <= fItems; i++)
+      {
+         if (priority[i] == priorityInput)
+         {
+            cost2 += cost[i];
+         }
+       }
+***************************************************************************** 
+3.
+Array is a data structure formed by elements from the same type.
+It's almost like Marvel's Multiverse, each hero belongs to its own organized
+universe. And in each universe a hero is unique, just like in an array each
+element has an unique index, so we can work with it whenever we need.  
