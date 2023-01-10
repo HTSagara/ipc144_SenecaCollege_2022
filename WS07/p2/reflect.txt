@@ -1,0 +1,57 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #7
+Full Name  : Henrique Toshio Sagara
+Student ID#: 170954218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1- The structure was important to do the Status Board, it was used to keep the Lives, Treasures and Moves Remaing.
+Although I didn't use different data types, I could be done with the Structure. Find below the example used:
+struct Status
+{
+    int livesLeft;
+    int treasureFound;
+    int movesRemaining;
+};
+
+     printf("\n+---------------------------------------------------+\n");
+     printf("  Lives: %2d  | Treasures: %2d  |  Moves Remaining: %2d\n", status1.livesLeft, status1.treasureFound, status1.movesRemaining);
+     printf("+---------------------------------------------------+\n");
+
+*****************************************************************************
+
+2- The logical changes were check if the move input were already used. I created an array to store each input
+and used a For Loop to check through the array, then I created a boolean variable to use as a filter to not print
+two sentences, i.g: 
+===============> Dope! You've been here before!
+===============> [.] ...Nothing found here... [.]
+
+The other logical was to to check if the move input was a bomb, trasure or empty.
+ 
+
+*****************************************************************************
+
+3- The part that I spent more time was to find a way to convert the path array which was an char array to an int array.
+I converted each item and them subtracted by 48 which represents '0' in the ASCII Table. So the results would have to be
+either 1 or 0.
+ do
+    {
+        printf("   Positions [%2d-%2d]: ", p - 4, p);
+        scanf(" %[^\n]%*c", tempstr);
+        j++;
+        for (i = 0; i <= pathLength; i++)
+        {
+            if (tempstr[i] != ' ' && i < 9)
+            {
+                treasures[(p - 5) + (i / 2)] = tempstr[i] - 48; //ASCII FOR '0'
+            }
+
+        }
+        p += 5;
+    } while (j < (pathLength / MULT));
+
+

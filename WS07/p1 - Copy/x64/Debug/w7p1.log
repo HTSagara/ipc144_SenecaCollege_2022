@@ -1,0 +1,8 @@
+﻿  w7p1.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS07\p1 - Copy\w7p1.c(79,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS07\p1 - Copy\w7p1.c(100,15): warning C4477: 'scanf' : format string '%[^\n]' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS07\p1 - Copy\w7p1.c(142,26): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS07\p1 - Copy\w7p1.c(142,23): warning C4024: 'rmv_gaps': different types for formal and actual parameter 1
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS07\p1 - Copy\w7p1.c(143,16): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS07\p1 - Copy\w7p1.c(143,16): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+  w7p1.vcxproj -> C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS07\p1 - Copy\x64\Debug\w7p1.exe
