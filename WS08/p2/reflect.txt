@@ -1,0 +1,60 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #8
+Full Name  : Henrique Toshio Sagara
+Student ID#: 170954218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+1- As we know, a double type variable occupies 8 bytes of memory and a integer occupies 4 bytes.
+In the ReportData Structure, we have 3 variables type integer and 6 variables type double.
+3 * 4 = 12 bytes
+6 * 8 = 48 bytes
+12 + 48 = 60 bytes
+*****************************************************************************
+2- Structure would be:
+struct ReportData
+{
+    int sku;
+    double price;
+    int calories;
+    double lbsWeight;
+    double kgWeight;
+    int gWeight;
+    double totalServings;
+    double costServings;
+    double costCalServings;
+};
+
+void displayReportData(struct ReportData* data)
+{
+	int i, min, position;
+
+	min = data[0].costServings;
+	for (i = 0; i < MAX_NUM_PRODS; i++)
+	{
+		if (data[i].costServings < min)
+		{
+			min = data[i].costServings;
+			position = i;
+		}
+	}
+
+	for ( i = 0; i < MAX_NUM_PRODS; i++)
+	{
+		if (i == position)
+		{
+			printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf ***\n",
+				data[i].sku, data[i].price, data[i].lbsWeight, data[i].kgWeight, data[i].gWeight, data[i].calories, data[i].totalServings, data[i].costServings, data[i].costCalServings);
+		}
+		else
+		{
+			printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf\n",
+				data[i].sku, data[i].price, data[i].lbsWeight, data[i].kgWeight, data[i].gWeight, data[i].calories, data[i].totalServings, data[i].costServings, data[i].costCalServings);
+		}
+	}
+
+} 

@@ -1,0 +1,8 @@
+﻿  main1.c
+  w8p1.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p1\w8p1.c(79,41): warning C4028: formal parameter 1 different from declaration
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p1\w8p1.c(139,45): warning C4028: formal parameter 1 different from declaration
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p1\w8p1.c(152,6): warning C4101: 'x': unreferenced local variable
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p1\w8p1.c(151,12): warning C4101: 'n': unreferenced local variable
+  Generating Code...
+  w8p1.vcxproj -> C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p1\x64\Debug\w8p1.exe

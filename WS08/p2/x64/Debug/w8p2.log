@@ -1,0 +1,13 @@
+﻿  main2.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\main2.c(257,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\main2.c(270,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  w8p2.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\w8p2.c(185,8): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\w8p2.c(200,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\w8p2.c(246,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\w8p2.c(284,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\w8p2.c(289,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\w8p2.c(315,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\w8p2.c(320,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  w8p2.vcxproj -> C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS08\p2\x64\Debug\w8p2.exe
