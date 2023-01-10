@@ -1,0 +1,33 @@
+Reflection
+**************************************************************************************************************************
+							Workshop - #1 (Reflection)>
+Full Name  : Henrique Toshio Sagara
+Student ID#: 170954218
+Email      : hsagara@myseneca.ca
+Section    : ZCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+
+**************************************************************************************************************************
+
+1. What you have learned in completing this workshop?
+	I've learned the basic use of softwares, such as Visual Studio, FileZilla and PuTTY, how to use the function printf 
+	and how I can print special characters like back-slash, percent and double-quote.
+	And last but not least, commands on the Command Prompt like ls (used to list files), cd (to change directory), 
+	and mkdir (to create a new directory).
+
+2. Briefly describe what SSH is and how you used it in this workshop
+	The SSH is the software used to interact and navigate on the Seneca's server through my local computer.
+	It was used in this project to:
+	- Create the directories ipc144 and w01;
+	- To run and test the code;
+	- Submit the files to professor
+	Without the SSH nothig it wouldn't be possible to do it in the Seneca's server from outside Seneca.
+
+3. Briefly describe what SFTP is and how you used it in this workshop
+ 	The SFTP is the software used to transferring files from my local machine to the Seneca's server.
+	It was used in this project to:
+	- Transfer the files from my local computer to the Seneca's Server.
