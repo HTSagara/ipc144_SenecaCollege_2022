@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31328.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/henri/onedrive/ambiente de trabalho/seneca cpa/ipc 144 - introduction to programming using c/workshops/as01/a1/ms1/a1ms1.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c70cb2819fbdfc6fc43e30985b2466337527ee50af6f8bff41ace8eaf4921aa8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/henri/onedrive/ambiente de trabalho/seneca cpa/ipc 144 - introduction to programming using c/workshops/as01/a1/ms1/core.h"
+          },
+          "hashes": {
+            "sha-256": "430b40b4bf23176412599e53ee5ded0259185a3f229d363fa247d232aa78ab72"
+          }
+        }
+      ]
+    }
+  ]
+}

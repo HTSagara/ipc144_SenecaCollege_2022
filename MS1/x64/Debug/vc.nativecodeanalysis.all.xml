@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+      <FILENAME>core.c</FILENAME>
+      <LINE>204</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>inputCString</FUNCTION>
+    <DECORATED>inputCString</DECORATED>
+    <FUNCLINE>194</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+      <FILENAME>core.c</FILENAME>
+      <LINE>223</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>inputCString</FUNCTION>
+    <DECORATED>inputCString</DECORATED>
+    <FUNCLINE>194</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+      <FILENAME>core.c</FILENAME>
+      <LINE>239</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator.</DESCRIPTION>
+    <FUNCTION>displayFormattedPhone</FUNCTION>
+    <DECORATED>displayFormattedPhone</DECORATED>
+    <FUNCLINE>235</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+      <FILENAME>core.c</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator.</DESCRIPTION>
+    <FUNCTION>displayFormattedPhone</FUNCTION>
+    <DECORATED>displayFormattedPhone</DECORATED>
+    <FUNCLINE>235</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+      <FILENAME>core.c</FILENAME>
+      <LINE>248</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'phone'. </DESCRIPTION>
+    <FUNCTION>displayFormattedPhone</FUNCTION>
+    <DECORATED>displayFormattedPhone</DECORATED>
+    <FUNCLINE>235</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'phone' is NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;length')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\AS01\A1\MS1\</FILEPATH>
+        <FILENAME>core.c</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'phone' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

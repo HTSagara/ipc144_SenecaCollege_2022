@@ -1,0 +1,353 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                },
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 13,
+                  "endLine": 204,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "inputCString",
+                  "decoratedName": "inputCString",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                },
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 13,
+                  "endLine": 223,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "inputCString",
+                  "decoratedName": "inputCString",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Incorrect operator."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                },
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 9,
+                  "endLine": 239,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "displayFormattedPhone",
+                  "decoratedName": "displayFormattedPhone",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "Incorrect operator."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                },
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 13,
+                  "endLine": 256,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "displayFormattedPhone",
+                  "decoratedName": "displayFormattedPhone",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'phone'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                },
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 13,
+                  "endLine": 248,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "displayFormattedPhone",
+                  "decoratedName": "displayFormattedPhone",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'phone' is NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 246,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 246,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<length')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+                          },
+                          "region": {
+                            "startLine": 248,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'phone' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31328.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/henri/OneDrive/Ambiente de Trabalho/Seneca CPA/IPC 144 - Introduction to Programming Using C/Workshops/AS01/A1/MS1/core.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f0c7163143b77207272520df85057e0b4c6cc87a03ef1396370ef62c6c37d1a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/henri/onedrive/ambiente de trabalho/seneca cpa/ipc 144 - introduction to programming using c/workshops/as01/a1/ms1/core.h"
+          },
+          "hashes": {
+            "sha-256": "430b40b4bf23176412599e53ee5ded0259185a3f229d363fa247d232aa78ab72"
+          }
+        }
+      ]
+    }
+  ]
+}
