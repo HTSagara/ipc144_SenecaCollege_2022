@@ -1,0 +1,7 @@
+w2p2.c: In function ‘main’:
+w2p2.c:26:87: warning: unused variable ‘sub_total_mult’ [-Wunused-variable]
+     int numShirtsPat, numShirtsTom, numShirtsSal, numShirtsP, numShirtsT, numShirtsS, sub_total_mult;
+                                                                                       ^
+w2p2.c:24:227: warning: unused variable ‘Bal_Sub_Tooniess’ [-Wunused-variable]
+     float priceSmall, priceMedium, priceLarge, small, medium, large, sub_total_Pat, total_Pat, taxes_Pat, sub_total_Tom, total_Tom, taxes_Tom, sub_total_Sal, total_Sal, taxes_Sal, sub_total, total_tax, total, Bal_Sub_Toonies, Bal_Sub_Tooniess, Bal_Sub_Loonies, Bal_Sub_Quarters, Bal_Sub_Dimes, Bal_Sub_Nickels, Bal_Sub_Pennies, Bal_Toonies, Bal_Loonies, Bal_Quarters, Bal_Dimes, Bal_Nickels, Bal_Pennies, sub_avg, total_avg;
+                                                                                                                                                                                                                                   ^

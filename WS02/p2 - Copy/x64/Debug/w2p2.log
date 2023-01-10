@@ -1,0 +1,6 @@
+﻿  w2p21.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2 - Copy\w2p21.c(36,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2 - Copy\w2p21.c(37,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2 - Copy\w2p21.c(38,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+w2p21.obj : error LNK2005: main already defined in w2p2.obj
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2 - Copy\x64\Debug\w2p2.exe : fatal error LNK1169: one or more multiply defined symbols found

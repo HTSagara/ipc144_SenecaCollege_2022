@@ -1,0 +1,29 @@
+﻿  w2p2.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(37,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(38,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(39,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(52,37): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(59,37): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(66,37): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(82,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(85,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(88,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(89,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(91,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(92,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(94,33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(95,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(97,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(98,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(115,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(118,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(121,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(122,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(124,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(125,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(127,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(128,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(130,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(131,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\w2p2.c(143,17): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+  w2p2.vcxproj -> C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p2\x64\Debug\w2p2.exe

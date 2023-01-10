@@ -1,0 +1,6 @@
+﻿  w2p1.c
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p1\w2p1.c(36,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p1\w2p1.c(37,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p1\w2p1.c(38,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p1\w2p1.c(56,29): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+  w2p1.vcxproj -> C:\Users\henri\OneDrive\Ambiente de Trabalho\Seneca CPA\IPC 144 - Introduction to Programming Using C\Workshops\WS02\p1\x64\Debug\w2p1.exe

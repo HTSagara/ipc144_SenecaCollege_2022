@@ -1,0 +1,61 @@
+*****************************************************************************
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : Henrique Toshio Sagara
+Student ID#: 170954218
+Email      : hsagara@myseneca.ca
+Section    : ZCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1- Because 10.1199998855 might be the closest double number to 10.12
+
+*****************************************************************************
+2- 
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
+int main(void)
+{
+  int twenty;
+  float total = 365.57, bal_twenty;
+
+  twenty = total / 20;
+  bal_twenty = total - twenty * 20;
+
+  printf("\nSales INCLUDING tax\n");
+  printf("Coin\t Qty   Balance\n");
+  printf("-------- --- ---------\n");
+  printf("              %.4f\n", total);
+  printf("Twenty    %d    %.4f\n", twenty, bal_twenty);
+
+  return 0;
+}
+
+*****************************************************************************
+
+3-
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
+int main(void)
+{
+  int number = 7245;
+
+  float ex1 = (float)number / 100;
+  printf ("Example 1 - %.2f\n", ex1);
+
+  double ex2 = (double)number / 100;
+  printf ("Example 2 - %.2lf\n", ex2);
+
+  double ex3 = (float)number / 100;
+  printf("Example 3 - %.2lf\n", ex3);
+  
+  return 0;
+}
